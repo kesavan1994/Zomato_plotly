@@ -10,7 +10,7 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 
 #Zomato CSV File Path
-zomato=pd.read_csv('E:\datascience\Assingment 1\Zomato\zomato.csv')
+zomato=pd.read_csv('zomato.csv')
 
 #Country dropdown dta
 options=[]
