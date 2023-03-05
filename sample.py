@@ -22,6 +22,7 @@ for col in zomato['Country'].unique():
 tap_style={'margin-bottom':'10px','padding':'5px','margin':'10px','color':'black','font-size':'20px'} 
            
 app = dash.Dash("__name__",prevent_initial_callbacks=True, suppress_callback_exceptions=True)
+server= app.server
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=True),
